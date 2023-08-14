@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto' , sans-serif;
     margin:0;
@@ -33,6 +37,9 @@ button:hover{
     max-width: 1400px;
     margin: auto;
 }
+
+.color-acento{ color:orange;}
+/* Aca arriba cambiar el tipo de letra */
 
 header{
     background-color: rgb(245,245,245);
@@ -87,4 +94,69 @@ header a:hover{
         ,url("img/montaña-1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color:white;
+}
+
+#somos-Mto .container{
+    text-align: center;
+    padding:200px 12px;
+}
+
+#nuestras-rutas{
+    background-color: rgb(30,30,30);
+    color:white;
+    text-align: center;
+}
+
+#nuestras-rutas .container{
+    padding: 150px 0px;
+}
+
+#nuestras-rutas h2{
+    margin-top:0;
+}
+
+#nuestras-rutas p{
+    display: none;
+}
+
+#nuestras-rutas .carta{
+
+}
+
+.carta-1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("img/senderismo-2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carta-2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("img/senderismo-3.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carta-3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("img/senderismo-4.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
