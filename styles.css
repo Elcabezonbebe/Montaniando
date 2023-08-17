@@ -18,8 +18,8 @@ p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
-.logo{ font-family: 'League Spartan';}
-
+.logo{ font-family: 'Roboto' , sans-serif;}
+/* Aca cambie la tipografia  */
 button{
     font-size: 1.5em;
     font-weight: bold;
