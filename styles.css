@@ -92,7 +92,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
         )
-        ,url("img/img-inteligencia-art.jpeg");
+        ,url("img/img-IA.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
@@ -261,14 +261,16 @@ footer .container{
     #somos-SIIC h2{
         margin-top: 0px;
     }
-
-    #somos-SIIC .img-container{
-        background-image: url(img/Politecnico.webp);
-        background-size: cover;
+    /* imagen del politecnico  */
+    #somos-SIIC .img-container {
+        background-image: url(img/img-Poli.png);
+        background-size: contain;
         background-position: center center;
-        height: 500px;
-        width: 400px; 
+        background-repeat: no-repeat;
+        height: 0;
+        padding-bottom: 55.27%;
     }
+    
 
     #nuestras-Contenido .Contenido{
         display:flex;
@@ -325,7 +327,7 @@ footer .container{
         ,url("img/img-colab.png");
     }
     #caracteristicas{
-        background-image: url("img/img-inteligencia-art.jpeg");
+        background-image: url("img/img-Computador.jpeg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
