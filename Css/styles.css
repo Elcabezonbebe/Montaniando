@@ -92,7 +92,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
         )
-        ,url("img/img-IA.jpeg");
+        ,url("../img/img-IA.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
@@ -144,7 +144,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ), url("img/img-sesiones.avif");
+    ), url("../img/img-sesiones.avif");
 }
 
 .carta:nth-child(2){
@@ -152,7 +152,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ), url("img/img-presentaciones.png");
+    ), url("../img/img-presentaciones.png");
 }
 
 .carta:nth-child(3){
@@ -160,7 +160,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ), url("img/img-colab.png");
+    ), url("../img/img-colab.png");
 }
 
 #caracteristicas .container{
@@ -221,6 +221,12 @@ footer .container{
     margin: 0;
 }
 
+a {
+    text-decoration: none; 
+    color: #000; 
+}
+
+
 
 @media(min-width:850px){
     header{
@@ -263,7 +269,7 @@ footer .container{
     }
     /* imagen del politecnico  */
     #somos-SIIC .img-container {
-        background-image: url(img/img-Poli.png);
+        background-image: url(../img/img-Poli.png);
         background-size: contain;
         background-position: center center;
         background-repeat: no-repeat;
@@ -305,7 +311,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("img/img-sesiones.avif");
+        ,url("../img/img-sesiones.avif");
 
     }
 
@@ -315,7 +321,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("img/img-presentaciones.png");
+        ,url("../img/img-presentaciones.png");
     }
 
     .carta:nth-child(3){
@@ -324,10 +330,10 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("img/img-colab.png");
+        ,url("../img/img-colab.png");
     }
     #caracteristicas{
-        background-image: url("img/img-Computador.jpeg");
+        background-image: url("../img/img-Computador.jpeg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
@@ -344,6 +350,12 @@ footer .container{
     footer .container{
         justify-content: flex-end;
     }
+
+    a {
+        text-decoration: none; 
+        color: #000; 
+    }
+    
 }
 
 @media (min-width: 1200px) {
