@@ -89,7 +89,36 @@ a {
     color: #000; 
 }
 
+.tutoriales{
+    background-color: white;
+    align-items: center;
+}
 
+#title{
+    color: #1B86D4;
+    text-align: center;
+    margin: 60px 0px 10px 0px;
+}
+
+#text{
+    font-size: 1.0em;
+    color:black;
+    text-align: center;
+}
+
+#img{
+    text-align: center;
+}
+
+#subtitle{
+    text-align: left;
+    color:black;
+
+}
+
+#colab{
+    margin: 40px 140px 40px 140px;
+}
 
 @media(min-width:850px){
     header{
