@@ -89,7 +89,29 @@ a {
     color: #000; 
 }
 
+.sesiones{
+    background-color: white;
+}
 
+#title{
+    color: #1B86D4;
+    text-align: center;
+    margin: 60px 0px 10px 0px;
+}
+
+#text{
+    font-size: 1.0em;
+    color:black;
+    text-align: center;
+}
+
+#video{
+    background-color: white;
+    margin: 20px 20px 20px 230px ;
+    /* --- top-rigth-bottom-left */
+    width:70%;
+    height:600px;
+}
 
 @media(min-width:850px){
     header{
